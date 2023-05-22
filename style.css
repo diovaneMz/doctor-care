@@ -192,7 +192,6 @@ nav button {
 nav .menu,
 nav .close-menu {
   position: fixed;
-  background-color: white;
 }
 
 body.menu-expanded nav .close-menu {
@@ -535,6 +534,10 @@ footer .social-links {
     color: initial;
     background-color: initial;
     filter: initial;
+  }
+
+  nav#navigation {
+    background-color: hsla(0, 0%, 100%, 50%);
   }
 
   nav#navigation .close-menu,
