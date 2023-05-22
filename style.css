@@ -192,6 +192,7 @@ nav button {
 nav .menu,
 nav .close-menu {
   position: fixed;
+  background-color: white;
 }
 
 body.menu-expanded nav .close-menu {
